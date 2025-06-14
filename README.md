@@ -59,7 +59,9 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 - Intersection over Union (IoU)
 - Précision
 - Rappel
-
+![Résultats d'évaluation ](résultats évaluation.png)
+![Résultats de prédiction](dresultats_prediction.png)
+![Résultats de prédiction](dresultats_prediction2.png)
 ## 6. Contenu du dépôt
 
 - `notebook/` : Notebook complet du pipeline de segmentation et de polygonisation.
