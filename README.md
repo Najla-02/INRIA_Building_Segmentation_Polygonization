@@ -21,7 +21,7 @@ Les données utilisées proviennent du jeu de données public **INRIA Aerial Ima
 
 Les annotations disponibles sont des masques binaires où les bâtiments sont représentés en blanc.
 
-![Echantillion des images du dataset](C:/Users/user/Downloads/dataset.png)
+![Echantillion des images du dataset](dataset.png)
 
 ## Méthodologie
 
