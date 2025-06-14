@@ -46,6 +46,8 @@ Afin d’augmenter la diversité des données d’apprentissage :
 - Fonction de perte : combinaison de Dice Loss et Binary Crossentropy, pondérée pour corriger le déséquilibre.
 - Optimisation via Adam.
 
+![U-Net](resultats_prediction2.png)
+
 ### 4. Post-traitement
 
 - Filtrage des petites zones prédites inférieures à un seuil de surface.
@@ -59,9 +61,12 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 - Intersection over Union (IoU)
 - Précision
 - Rappel
-![Résultats d'évaluation ](résultats évaluation.png)
-![Résultats de prédiction](dresultats_prediction.png)
-![Résultats de prédiction](dresultats_prediction2.png)
+![Résultats d'évaluation ](resultats évaluation.png)
+
+![Résultats de prédiction](resultats_prediction.png)
+
+![Résultats de prédiction](resultats_prediction2.png)
+
 ## 6. Contenu du dépôt
 
 - `notebook/` : Notebook complet du pipeline de segmentation et de polygonisation.
