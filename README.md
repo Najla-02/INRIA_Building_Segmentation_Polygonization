@@ -46,7 +46,7 @@ Afin d’augmenter la diversité des données d’apprentissage :
 - Fonction de perte : combinaison de Dice Loss et Binary Crossentropy, pondérée pour corriger le déséquilibre.
 - Optimisation via Adam.
 
-![U-Net](resultats_prediction2.png)
+![U-Net](U-NET.webp)
 
 ### 4. Post-traitement
 
