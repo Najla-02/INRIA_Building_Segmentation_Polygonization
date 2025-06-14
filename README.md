@@ -80,7 +80,7 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 
 ![Résultats de prédiction 2](figures/resultats_prediction2.png)
 
-## 6. Contenu du dépôt
+## 6. Contenu du Repository 
 
 - `notebook/` : Notebook complet du pipeline de segmentation et de polygonisation.
 - `models/` : Modèle entraîné sauvegardé au format Keras.
