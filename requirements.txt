@@ -1,1 +1,9 @@
+tensorflow
+keras
+scikit-learn
+opencv-python
+matplotlib
+pillow
+shapely
+scikit-image
 
