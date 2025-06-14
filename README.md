@@ -1,3 +1,5 @@
+Ce repository contient une implémentation de la méthode segmentation sémantique suivie d'un algorithme de polygonisation du document « Vertex Aided Building Polygonization from Satellite Imagery Applying Deep Learning ».
+
 ## Objectif du projet
 
 L'objectif de ce projet est de développer un pipeline de traitement d'images aériennes pour détecter automatiquement les bâtiments à partir d'images satellites haute résolution.
