@@ -61,7 +61,7 @@ Afin d’augmenter la diversité des données d’apprentissage :
 - Les contours sont transformés en polygones géométriques via la bibliothèque shapely.
 - Enfin, les petits objets inférieurs à un seuil de surface sont filtrés pour éviter les faux positifs.
 
-![Polygonisation finale](figures/Polygonisation finale.png)  
+![Polygonisation finale](figures/Polygonisation_finale.png)  
 
 ### 5. Évaluation des performances
 
@@ -72,7 +72,7 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 - Précision
 - Rappel
   
-![Résultats d'évaluation](figures/resultats évaluation.png)
+![Résultats d'évaluation](figures/resultats_évaluation.png)
 
 ![Résultats de prédiction 1](figures/resultats_prediction.png)
 
