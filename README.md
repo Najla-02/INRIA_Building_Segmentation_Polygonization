@@ -51,7 +51,15 @@ Afin d’augmenter la diversité des données d’apprentissage :
 ### 4. Post-traitement
 
 - Filtrage des petites zones prédites inférieures à un seuil de surface.
-- Extraction des contours et conversion des masques en polygones via les bibliothèques `skimage` et `shapely`.
+- Extraction des contours et conversion des masques en polygones via les bibliothèques `skimage` et `shapely`:
+
+- Après la segmentation sémantique binaire des bâtiments, un post-traitement de polygonisation est appliqué pour convertir les masques de segmentation en objets vectoriels exploitables.
+- Les masques prédits sont d’abord binarisés.
+- Puis, les contours sont extraits grâce à la détection de contours.
+- Les contours sont transformés en polygones géométriques via la bibliothèque shapely.
+- Enfin, les petits objets inférieurs à un seuil de surface sont filtrés pour éviter les faux positifs.
+
+![Polygonisation finale ](Polygonisation finale.png)  
 
 ### 5. Évaluation des performances
 
@@ -61,6 +69,7 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 - Intersection over Union (IoU)
 - Précision
 - Rappel
+  
 ![Résultats d'évaluation ](resultats évaluation.png)
 
 ![Résultats de prédiction](resultats_prediction.png)
