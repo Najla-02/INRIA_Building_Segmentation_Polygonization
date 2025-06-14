@@ -1,6 +1,6 @@
 ## Objectif du projet
 
-L'objectif de ce projet est de développer un pipeline de traitement d'images aériennes pour détecter automatiquement les bâtiments à partir d'images satellites haute résolution. 
+L'objectif de ce projet est de développer un pipeline de traitement d'images aériennes pour détecter automatiquement les bâtiments à partir d'images satellites haute résolution.
 
 Le projet est divisé en deux étapes majeures :
 - **Segmentation sémantique** des bâtiments avec un modèle de Deep Learning (U-Net).
