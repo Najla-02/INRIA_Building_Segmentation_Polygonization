@@ -21,7 +21,9 @@ Les données utilisées proviennent du jeu de données public **INRIA Aerial Ima
 
 Les annotations disponibles sont des masques binaires où les bâtiments sont représentés en blanc.
 
-![Echantillion des images du dataset](dataset.png)
+![Dataset exemple 1](figures/dataset.png)
+
+![Dataset exemple 2](figures/dataset2.png)
 
 ## Méthodologie
 
@@ -46,7 +48,7 @@ Afin d’augmenter la diversité des données d’apprentissage :
 - Fonction de perte : combinaison de Dice Loss et Binary Crossentropy, pondérée pour corriger le déséquilibre.
 - Optimisation via Adam.
 
-![U-Net](U-NET.webp)
+![Architecture U-Net](figures/U-NET.webp)
 
 ### 4. Post-traitement
 
@@ -59,7 +61,7 @@ Afin d’augmenter la diversité des données d’apprentissage :
 - Les contours sont transformés en polygones géométriques via la bibliothèque shapely.
 - Enfin, les petits objets inférieurs à un seuil de surface sont filtrés pour éviter les faux positifs.
 
-![Polygonisation finale](Polygonisation finale.png)  
+![Polygonisation finale](figures/Polygonisation finale.png)  
 
 ### 5. Évaluation des performances
 
@@ -70,11 +72,11 @@ Les performances du modèle sont évaluées à l’aide de plusieurs métriques 
 - Précision
 - Rappel
   
-![Résultats d'évaluation](resultats évaluation.png)
+![Résultats d'évaluation](figures/resultats évaluation.png)
 
-![Résultats de prédiction](resultats_prediction.png)
+![Résultats de prédiction 1](figures/resultats_prediction.png)
 
-![Résultats de prédiction](resultats_prediction2.png)
+![Résultats de prédiction 2](figures/resultats_prediction2.png)
 
 ## 6. Contenu du dépôt
 
